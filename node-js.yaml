@@ -1,0 +1,17 @@
+---
+- name: install npm
+  become: yes
+  apt:
+    name: npm
+
+- name: install n package
+  become: yes
+  shell: npm install -g n 
+
+- name: install latest nodejs using n package
+  become: yes
+  shell: n latest
+
+- name: update npm
+  become: yes
+  shell: npm update -g
