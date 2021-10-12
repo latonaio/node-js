@@ -1,6 +1,7 @@
 # 概要
 Node.js を利用するための手順です。  
 本手順のほかに、install-yarnの手順が必要です。  
+- [install-yarn](https://github.com/latonaio/install-yarn)
 
 # how to setup
 セットアップのためのコマンドは、node-js.yaml 内にあります。
